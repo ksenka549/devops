@@ -14,7 +14,7 @@ fi
 # Stage 2: Check parameters count
 if [ $# != 2 ] ; 
   then
-   echo "$(tput setaf 1)[Error:] $(tput setaf 7)Illegal number of parameters - $#. Please add only 2 parameters" >&2
+   echo "$(tput setaf 1)[Error:] $(tput setaf 7)Illegal number of parameters - $#. Please add only 2 parameters - <user> <dir>" >&2
   exit
 fi
 
@@ -33,5 +33,5 @@ fi
 
 # Stage 5: Change owner
   chown -R "$user" "$mydir"
-  echo "$(tput setaf 2)[Sucsess:] $(tput setaf 7)The owner of the $(tput setaf 5)$mydir $(tput setaf 7)has been changed to user $(tput setaf 3)$user"
+   echo "$(tput setaf 2)[Sucsess:] $(tput setaf 7)The owner of the $(tput setaf 5)$mydir $(tput setaf 7)has been changed to user $(tput setaf 3)$user"
 
