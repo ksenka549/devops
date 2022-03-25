@@ -32,6 +32,6 @@ if [ ! -d "$mydir" ] ; then
 fi
 
 # Stage 5: Change owner
-  chown -R "$user" "$mydir"
+  chown -R "$user":"$user" "$mydir"
    echo "$(tput setaf 2)[Sucsess:] $(tput setaf 7)The owner of the $(tput setaf 5)$mydir $(tput setaf 7)has been changed to user $(tput setaf 3)$user"
 
