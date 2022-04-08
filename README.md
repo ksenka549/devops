@@ -63,6 +63,17 @@ Separate webserver + PHP and DB Server between two virtual servers
 
 #### [Task #2. Solution][task2]
 
+## Terraform (Task #3)
+### Title: Create terraform scenario for provisioning infrastructure on GCP (or AWS) cloud
+#### Requirements:
+- Create one instance (image: ubuntu 20.04)
+- Allow HTTP/HTTPS traffic on a NIC
+- Provision one SSH public key for created instance
+- Install Web Server (Apache HTTP Server / NGINX HTTP Server) via bash scenario
+
+#### [Task #3. Solution][task3]
+
 [clone_rep]: <https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys>
 [task1]: <https://github.com/ksenka549/devops/tree/main/bash>
 [task2]: <https://github.com/ksenka549/devops/tree/main/bash>
+[task3]: <https://github.com/ksenka549/devops/tree/main/bash>
