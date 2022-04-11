@@ -74,6 +74,6 @@ Separate webserver + PHP and DB Server between two virtual servers
 #### [Task #3. Solution][task3]
 
 [clone_rep]: <https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys>
-[task1]: <https://github.com/ksenka549/devops/tree/main/bash>
-[task2]: <https://github.com/ksenka549/devops/tree/main/bash>
-[task3]: <https://github.com/ksenka549/devops/tree/main/bash>
+[task1]: <https://github.com/ksenka549/devops/tree/main/Task%201.%20Change%20owner%20bash%20script>
+[task2]: <>
+[task3]: <https://github.com/ksenka549/devops/tree/main/Task%203.%20Terraform>
