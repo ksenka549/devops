@@ -61,7 +61,7 @@ the file with name like following: `moodle_<currentdate_currenttime>.sql`
 
 Separate webserver + PHP and DB Server between two virtual servers
 
-#### [Task #2. Solution][task2]
+#### [Task #2. Solution] coming soon... :-)
 
 ## Terraform (Task #3)
 ### Title: Create terraform scenario for provisioning infrastructure on GCP (or AWS) cloud
