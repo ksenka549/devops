@@ -73,7 +73,21 @@ Separate webserver + PHP and DB Server between two virtual servers
 
 #### [Task #3. Solution][task3]
 
+## Docker (Task #4)
+### Title: Create Dockerfile for image definition (Apache HTTP Server).
+#### Requirements:
+
+1. Basic image: Alpine Linux: https://hub.docker.com/_/alpine
+2. Add layer with Apache HTTP Server (you need to install HTTP Server)
+3. Change default index.html file. Use simple web page like <h1>Hello World!</h1>
+4. Build your recently created image
+5. Create and run container with Apache HTTP Server
+
+#### [Task #4. Solution][task4]
+
 [clone_rep]: <https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys>
 [task1]: <https://github.com/ksenka549/devops/tree/main/Task%201.%20Change%20owner%20bash%20script>
 [task2]: <>
 [task3]: <https://github.com/ksenka549/devops/tree/main/Task%203.%20Terraform>
+[task4]: <https://github.com/ksenka549/devops/tree/main/Task%204.%20Docker>
+
