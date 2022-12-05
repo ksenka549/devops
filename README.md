@@ -79,7 +79,7 @@ Separate webserver + PHP and DB Server between two virtual servers
 
 1. Basic image: Alpine Linux: https://hub.docker.com/_/alpine
 2. Add layer with Apache HTTP Server (you need to install HTTP Server)
-3. Change default index.html file. Use simple web page like <h1>Hello World!</h1>
+3. Change default index.html file. Use simple web page like "Hello World!"
 4. Build your recently created image
 5. Create and run container with Apache HTTP Server
 
